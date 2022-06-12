@@ -21,6 +21,6 @@ jobs:
           push: true
           tags: |
             seishuku/kube_news:latest
-            seishuku/kube_news:${{github.run_number}}
+            seishuku/kube_news:v${{github.run_number}}
             
             
